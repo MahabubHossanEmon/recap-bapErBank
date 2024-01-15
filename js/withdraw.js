@@ -19,7 +19,7 @@ document.getElementById('btn-withdraw').addEventListener('click',function(){
     const previousBalanceTotal=parseFloat(previousBalanceTotalString);
 
     const newBalanceTotal = previousBalanceTotal - newWithdrawTotal;
-    totalElement.innerText=newBalanceTotal;
+    totalElement.innerText=newBalanceTotal;  
 
 
 })
